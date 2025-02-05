@@ -1,5 +1,6 @@
 const winston = require('winston');
 const path = require('path');
+require('winston-daily-rotate-file');
 
 // Create a logger instance
 const logger = winston.createLogger({
